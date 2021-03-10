@@ -5,7 +5,7 @@ ee = "'"
 be = ","
 you = "."
 puts "Введите ваши символы"
-input = gets.strip
+input = gets.strip.upcase
 str = input
 str_ing = str.split(//)
 str_ing.each do |x|
@@ -23,3 +23,31 @@ elsif x == "."
 	puts "ю"
 end
 end
+
+Q = "й"
+W = "ц"
+E = "у"
+R = "к"
+T = "е"
+Y = "н"
+U = "г"
+I = "ш"
+O = "щ"
+P = "з"
+L = "д"
+K = "л"
+J = "о"
+H = "р"
+G = "п"
+F = "а"
+D = "в"
+S = "ы"
+A = "ф"
+Z = "я"
+X = "ч"
+C = "с"
+V = "м"
+B = "и"
+N = "т"
+M = "ь"
+
