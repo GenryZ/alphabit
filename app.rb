@@ -1,4 +1,5 @@
 arr = []
+arr_2 = []
 puts "Введите ваши символы"
 input = gets.strip.upcase
 str = input
@@ -68,7 +69,7 @@ elsif x == "N"
 	arr << "т"
 elsif x == "M"
 	arr << "ь"			
-else arr << x
+else arr_2 << x
 end
 end
 #arr.map{|x| print x}
