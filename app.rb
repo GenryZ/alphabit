@@ -68,6 +68,8 @@ elsif x == "N"
 	arr << "т"
 elsif x == "M"
 	arr << "ь"			
+else arr << x
 end
 end
-arr.map{|x| print x}
+#arr.map{|x| print x}
+print arr.join.capitalize
